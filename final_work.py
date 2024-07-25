@@ -1,3 +1,14 @@
+'''
+"исходный код"
+import random
+lst = ['robot'] * 10
+lst += ['human'] * 10
+random.shuffle(lst)
+data = pd.DataFrame({'whoAmI':lst})
+data.head()
+'''
+
+# перевод исходного кода в one hot вид без get_dummies.
 import pandas as pd
 import random
 
